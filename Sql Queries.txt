@@ -1,0 +1,57 @@
+INSERT INTO College (Name) VALUES ('NIT Delhi');       -- CollegeId = 1
+INSERT INTO College (Name) VALUES ('IIT Bombay');      -- CollegeId = 2
+INSERT INTO College (Name) VALUES ('BITS Pilani');     -- CollegeId = 3
+INSERT INTO College (Name) VALUES ('Delhi University');-- CollegeId = 4
+
+-- NIT Delhi
+INSERT INTO Education (Name, CollegeId) VALUES ('B.Tech', 1);     -- EducationId = 1
+INSERT INTO Education (Name, CollegeId) VALUES ('M.Tech', 1);     -- EducationId = 2
+
+-- IIT Bombay
+INSERT INTO Education (Name, CollegeId) VALUES ('B.Tech', 2);     -- EducationId = 3
+INSERT INTO Education (Name, CollegeId) VALUES ('PhD', 2);        -- EducationId = 4
+
+-- BITS Pilani
+INSERT INTO Education (Name, CollegeId) VALUES ('B.E.', 3);       -- EducationId = 5
+INSERT INTO Education (Name, CollegeId) VALUES ('M.Sc', 3);       -- EducationId = 6
+
+-- Delhi University
+INSERT INTO Education (Name, CollegeId) VALUES ('B.A.', 4);       -- EducationId = 7
+INSERT INTO Education (Name, CollegeId) VALUES ('M.A.', 4);       -- EducationId = 8
+
+
+-- For NIT Delhi
+INSERT INTO Technology (Name, EducationId) VALUES ('C++', 1);
+INSERT INTO Technology (Name, EducationId) VALUES ('Python', 1);
+INSERT INTO Technology (Name, EducationId) VALUES ('Java', 2);
+INSERT INTO Technology (Name, EducationId) VALUES ('C#', 2);
+
+-- For IIT Bombay
+INSERT INTO Technology (Name, EducationId) VALUES ('Machine Learning', 3);
+INSERT INTO Technology (Name, EducationId) VALUES ('Data Science', 3);
+INSERT INTO Technology (Name, EducationId) VALUES ('Deep Learning', 4);
+INSERT INTO Technology (Name, EducationId) VALUES ('AI Research', 4);
+
+-- For BITS Pilani
+INSERT INTO Technology (Name, EducationId) VALUES ('JavaScript', 5);
+INSERT INTO Technology (Name, EducationId) VALUES ('React', 5);
+INSERT INTO Technology (Name, EducationId) VALUES ('SQL', 6);
+INSERT INTO Technology (Name, EducationId) VALUES ('MongoDB', 6);
+
+-- For Delhi University
+INSERT INTO Technology (Name, EducationId) VALUES ('MS Excel', 7);
+INSERT INTO Technology (Name, EducationId) VALUES ('PowerPoint', 7);
+INSERT INTO Technology (Name, EducationId) VALUES ('SPSS', 8);
+INSERT INTO Technology (Name, EducationId) VALUES ('Tableau', 8);
+
+INSERT INTO StatusTypes (Name) VALUES ('Complete');
+INSERT INTO StatusTypes (Name) VALUES ('Pending');
+INSERT INTO StatusTypes (Name) VALUES ('Screened');
+
+INSERT INTO [User] (Name) VALUES ('Faiz Khan');
+INSERT INTO [User] (Name) VALUES ('Aarav Mehta');
+INSERT INTO [User] (Name) VALUES ('Sneha Sharma');
+INSERT INTO [User] (Name) VALUES ('Ritika Patel');
+INSERT INTO [User] (Name) VALUES ('Raj Verma');
+
+
